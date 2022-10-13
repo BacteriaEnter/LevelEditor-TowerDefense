@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbfecfc9c14429847b77c40b5701d52c, type: 3}
+  m_Name: SpikeTrap
+  m_EditorClassIdentifier: 
+  icon: {fileID: -234606969, guid: 370da071421cb97429e7e8197fae51c4, type: 3}
+  towerName: "\u5C16\u523A\u9677\u9631"
+  prefab: {fileID: 6552838456154283567, guid: 3abc8be00d4d88d4c90dd95876f11f58, type: 3}
+  range:
+  - {x: 0, y: 0}
+  damageType: 0
+  placeableType: 2
+  minDamage: 00000000030000000600000009000000
+  maxDamage: 00000000030000000600000009000000
+  baseInterval:
+  - 0
+  - 2
+  - 2
+  - 2
+  cost: 320000005a0000006e00000082000000
+  targetCount: 0
+  towerSkills:
+  - {fileID: 11400000, guid: 7ef5d3cdc0d8e5b41934aa1496612ae3, type: 2}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8afd24530e6c7834f8bf2b4216ca2b7e, type: 3}
+  m_Name: PoisonAttack
+  m_EditorClassIdentifier: 
+  skillName: Poison Attack
+  requestLevel: 1
+  description: 
+  icon: {fileID: 21300000, guid: 3cde24c92e3a06e49851ede578a8811a, type: 3}
+  attackPriority: 1
+  crossPriority: 0
+  poison: {fileID: 11400000, guid: c78389fa30702d64fab1bcfee7078c87, type: 2}

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41f66073ce0072f4d820cabce13a1e4e, type: 3}
+  m_Name: RangerTower
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: ac5bfe5ccd776c04ab401fd20389a8f5, type: 3}
+  towerName: "\u5C04\u624B\u5854"
+  prefab: {fileID: 127446288772078479, guid: e11717395308fc44ba431a43744e28cc, type: 3}
+  range:
+  - {x: 1, y: 0}
+  - {x: 1, y: 1}
+  - {x: 1, y: -1}
+  damageType: 0
+  placeableType: 1
+  minDamage: 04000000070000000a0000000d000000
+  maxDamage: 060000000b0000001000000013000000
+  baseInterval:
+  - 0.8
+  - 0.6
+  - 0.5
+  - 0.4
+  cost: 460000006e0000006801000090010000
+  targetCount: 3
+  towerSkills:
+  - {fileID: 11400000, guid: 1bf14539c622d374099016c100d5e28e, type: 2}
+  - {fileID: 11400000, guid: 202f232d9970dd94388398caed422ef6, type: 2}
+  - {fileID: 11400000, guid: 602e3887428a462458ed186d5e4125ea, type: 2}
+  projectilePrefab: {fileID: 6412041495832714701, guid: 06932fcfc255c394898a055fb2f7abc3, type: 3}

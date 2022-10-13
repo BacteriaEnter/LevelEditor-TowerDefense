@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13e1e656577b2594484fc5cab8f17a4b, type: 3}
+  m_Name: ApprenticeTower
+  m_EditorClassIdentifier: 
+  icon: {fileID: -710622460, guid: 0c097c8765166c6448063da9b7192c88, type: 3}
+  towerName: "\u5B66\u5F92\u5854"
+  prefab: {fileID: 760258308062231415, guid: 11b03585ae684a74789afeff6c5c2e4e, type: 3}
+  range:
+  - {x: 1, y: 0}
+  - {x: 1, y: 1}
+  - {x: 0, y: 1}
+  - {x: -1, y: 1}
+  - {x: -1, y: 0}
+  - {x: -1, y: -1}
+  - {x: 0, y: -1}
+  - {x: 1, y: -1}
+  damageType: 1
+  placeableType: 1
+  minDamage: 0a000000140000001e00000032000000
+  maxDamage: 0f00000019000000280000003c000000
+  baseInterval:
+  - 1
+  - 1
+  - 0.8
+  - 0.6
+  cost: 64000000a0000000f00000002c010000
+  targetCount: 0
+  towerSkills:
+  - {fileID: 11400000, guid: b7db71750f414d54b9e4328714056357, type: 2}
+  - {fileID: 11400000, guid: d60aff93ad40cef4b901eb8a704c732a, type: 2}
+  projectilePrefab: {fileID: 3205241467462636080, guid: 6678de6200c5f6d479befca4474ec64d, type: 3}
