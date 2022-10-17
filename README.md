@@ -7,8 +7,9 @@
 
 使用方法：
   至少创建两层TileMap分为基础的地面层和放置路径点和子路径点的路径层。
+  
 在地面层铺好tile后根据怪物行走的路径要求和防御塔的建筑位置通过GameObject Brush为分别放置RoadTile和normalTile。
 在TileMapManager处出入levelIndex点击saveLevel对关卡地图文件进行创建。再次用画笔在路径层放置waypoint。将路径层节点设置到WaypointManagerWindow中。使用connect to PrevWaypoint
 进行对上一个路径点的连接。对于分支路线分支通过Create Branch Receiver设置为接收者，分支通过create Branch设置。连接使用connect all receiver to branch。
-  对于多点汇合的地方通过create merge point receiver创建接收者，而汇合的点通过create merge point创建。最终通过connect all receiver to mergePoint。子路径点则通过GameObject B-rush放置subwaypoint并手动在inspector面板分配属性设置。通过connect subwaypoint to waypoints即可一键对子路径点合并到路径点中。最终在tilemapManager中通过Save Blocks与Save Wayp-
-oints按钮对地图进行保存
+
+  对于多点汇合的地方通过create merge point receiver创建接收者，而汇合的点通过create merge point创建。最终通过connect all receiver to mergePoint。子路径点则通过GameObject B-rush放置subwaypoint并手动在inspector面板分配属性设置。通过connect subwaypoint to waypoints即可一键对子路径点合并到路径点中。最终在tilemapManager中通过Save Blocks与Save Wayp-oints按钮对地图进行保存
